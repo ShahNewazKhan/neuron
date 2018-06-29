@@ -1,7 +1,5 @@
 import tensorflow as tf
 
-#https://www.oreilly.com/learning/hello-tensorflow
-
 x = tf.constant([0.0,2.0,3.0,4.0,12.0], name='inputs')
 w = tf.Variable(0.8, name='weight')
 y = tf.multiply(w, x, name='output')
